@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Fome</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./apple-touch-icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <h2>Cadastro Zero Fome</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" placeholder="Digite o seu nome completo">
+            </div>
+            <div class="form-content">
+                <label for="number">Quantas pessoas moram junto com você</label>
+                <input type="number" id="peaple_house" placeholder="Digite a quantidade de pessoas que moram com você">
+            </div>
+            <div class="form-content">
+                <label for="search">Renda Mensal pessoal</label>
+                <select name="renda_mensal" id="renda_mensal">
+                    <option selected disabled>Selecione a renda mensal pessoal</option>
+                    <option value="">Até 2 salários mínimos</option>
+                    <option value="">De 3 a 5 salários mínimos</option>
+                    <option value="">De 6 a 10 salários mínimos</option>
+                    <option value="">Acima de 10 salários mínimos</option>
+                </select>
+            </div>
+            <div class="form-content">
+                <label for="search">Renda Mensal Familiar</label>
+                <select name="renda_mensal_familiar" id="family_income">
+                    <option selected disabled>Selecione a renda mensal familiar</option>
+                    <option value="">Até 3 salários mínimos</option>
+                    <option value="">De 4 a 6 salários mínimos</option>
+                    <option value=""> De 7 a 11 salários mínimos</option>
+                    <option value="">Acima de 11 salários mínimos</option>
+                </select>
+            </div>
+            <div class="form-content">
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf" placeholder="Digite seu número de celular com o DDD">
+            </div>
+            <div class="form-content">
+                <label for="países">Seu estador</label>
+                <select name="Estados" id="estados">
+                    <option selected disabled>Selecione seu estado</option>
+                    <option value="">Acre</option>
+                    <option value="">Amapá</option> 
+                    <option value="">Alagoas</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Bahia</option>
+                    <option value="">Ceará</option>
+                    <option value="">Espirito Santo</option>
+                    <option value="">Goiás</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Pará</option>
+                    <option value="">Paraiba</option>
+                    <option value="">Paraná</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Rio Grande do Sul</option>
+                    <option value="">Rio Grande do Norte</option>
+                    <option value="">Roraima</option>
+                    <option value="">Rondonia</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                </select>
+            </div>
+            <div class="form-content">
+                <label for="name">Sua cidade</label>
+                <input type="text" id="city" placeholder="Digite o nome de sua cidade">
+            </div>
+            <button type="submit">Cadastre-se</button>
+        </form>
+    </div>
+</body>
+</html>
